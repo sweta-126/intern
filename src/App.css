@@ -1,0 +1,33 @@
+.btn1{
+    width: max-content;
+    min-width: 130px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn2{
+    width: max-content;
+    min-width: 130px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.btn1:hover,.btn2:hover{
+    background-color: #d7d7d7;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:500px){
+    .btn1, .btn2{
+        min-width: 100px;
+        font-size: 18px;
+    }
+}

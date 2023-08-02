@@ -1,0 +1,40 @@
+.card{
+    height: 340px;
+    width: 320px;
+    padding: 16px;
+    box-shadow: 1px 1px #9abd1b;
+    margin: 32px 14px;
+}
+
+.c-title{
+    color: #9abd1b;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    height: 100px;
+}
+
+.c-desc{
+    font-size: 18px;
+    margin-bottom: 16px;
+    height: 150px;
+}
+
+@media screen and (max-width:425px) {
+    .card{
+        height: 350px;
+        width: 250px;
+        padding: 16px;
+    }
+    .c-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+        height: 120px;
+    }
+    
+    .c-desc{
+        font-size: 13px;
+        margin-bottom: 10px;
+        height: 150px;
+    }
+}
